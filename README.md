@@ -16,6 +16,6 @@ for pytest examples and tests, just use the following commands to install
 - if you need to run parallel test cases using pytest you should install xdist using this command >> pip3 install pytest-xdist
 - for run test cases in parallel use this command >> python3 -m pytest -n 3 >> this will run tests across 3 threads 
 
-**API tests***
+**API tests**
 - if you need to do api test just install requests lib using this command >> pip3 install requests
 - run you tests using the basic command for run python3 -m pytest your_file_path
