@@ -6,7 +6,8 @@ from Learning_Courses.Selenium_web.pages.search import DuckDuckGoSearchPage
 from selenium.webdriver.support.ui import WebDriverWait
 
 
-def test_basic_duckduckgo_search(browser):
+@pytest.mark.parametrize('phrase', ['panda', 'python', 'Dana'])
+def test_basic_duckduckgo_search(browser, phrase):
     search_page = DuckDuckGoSearchPage(browser)
     result_page = DuckDuckGoResultPage(browser)
     phrase = 'panda'

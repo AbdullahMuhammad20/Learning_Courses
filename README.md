@@ -19,3 +19,8 @@ for pytest examples and tests, just use the following commands to install
 **API tests**
 - if you need to do api test just install requests lib using this command >> pip3 install requests
 - run you tests using the basic command for run python3 -m pytest your_file_path
+
+**Web browser tests**
+- to install selenium using python use this command >> pip3 install selenium
+- to use parallel execution you need to install xdist using this command >> pip3 install pytest-xdist
+- to run tests in parallel use this command >> -n in your run command
